@@ -9,7 +9,7 @@ header{
     display: flex;
     justify-content: space-between;
 }
-.sign-btn:hover{
+.sign-btn{
     width: 116px;
     height: 52px;
     color: #006A50;
@@ -70,10 +70,65 @@ header{
     font-size: 40px;
 }
 .piller-card{
-    border-radius: 5px;
     margin-right: 24px;
     background-color:white;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     padding: 24px;
+}
+/* vision-card */
+.vision-cards{
+    display: flex;
+}
+.vision-title{
+    font-size: 40px;
+}
+.vision-card01{
+    width: 410px;
+    height: 219px;
+    /* background-color: #5490F5; */
+    background-color: rgba(84, 144, 245, 0.3);
+    border-radius: 5px;
+    margin-right: 24px;
+    padding: 25px;
+    
+}
+.vision-btn01{
+    background-color: #5490F5;
+    border-radius: 5px;
+    width: 122px;
+    height: 41px;
+    font-weight: bold;
+}
+.vision-card02{
+    width: 410px;
+    height: 219px;
+    /* background-color: #09A15C; */
+    background-color: rgba(198, 228, 214, 0.8);
+    border-radius: 5px;
+    margin-right: 24px;
+    padding: 25px;
+}
+.vision-btn02{
+    background-color: #09A15C;
+    border-radius: 5px;
+    width: 122px;
+    height: 41px;
+    font-weight: bold;
+}
+.vision-card03{
+    width: 410px;
+    height: 219px;
+    /* background-color: #FFC239; */
+    background-color: rgba(255, 194, 57, 0.4);
+    border-radius: 5px;
+    margin-right: 24px;
+    padding: 25px;
+}
+.vision-btn03{
+    background-color: #FFC239;
+    border-radius: 5px;
+    width: 122px;
+    height: 41px;
+    font-weight: bold;
 }
