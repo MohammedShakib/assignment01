@@ -324,6 +324,9 @@ select:hover{
     margin-right: 500px;
     
 }
+.taka-done-btn:hover{
+    background-color: rgb(250, 9, 9);
+}
 /* newsletter */
 .newsletter{
     background-color: #d7f5dc;
