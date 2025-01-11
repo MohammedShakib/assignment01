@@ -306,3 +306,55 @@ select:hover{
     margin-right: 500px;
     
 }
+/* newsletter */
+.newsletter{
+    background-color: #d7f5dc;
+    padding: 40px 20px;
+    border-radius: 10px;
+    width: 1280px;
+    max-width: 800px;
+    margin: 0 auto; 
+    text-align: center; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.newsletter-title{
+    font-size: 40px;
+    text-align: center;
+}
+.newsletter-info{
+    text-align: center;
+    color: rgba(14, 14, 14, 0.7);
+}
+/* Subscribe Form */
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    margin-bottom: 15px;
+}
+
+.subscribe-input {
+    flex: 1;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 14px;    
+}
+
+.subscribe-input {
+    border-color: #09a15c;
+}
+
+.subscribe-button {
+    padding: 12px 20px;
+    font-size: 14px;
+    color: white;
+    background-color: #09a15c;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+
+.subscribe-button:hover {
+    background-color: #007a43;
+}
