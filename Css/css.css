@@ -398,4 +398,9 @@ select:hover{
 .footer-img img {
     width: 24px;
     height: 24px;
+
+}
+.footer-img img:hover{
+    background-color: #03f7ff;
+    
 }
