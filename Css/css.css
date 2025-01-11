@@ -250,4 +250,59 @@ select:hover{
     padding: 20px;
     border-radius: 15px;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 80px;
+}
+/* Donate */
+.donate{
+    margin-bottom: 80px;
+}
+.donate-heading{
+    text-align: center;
+}
+.taka-cointainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.taka-btn{
+    width: 240px;
+    height: 128px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+}
+.taka-btn:hover{
+    background-color: #006A50;
+}
+#taka200{
+    background-color: #09A15C;
+}
+#taka200:hover{
+    background-color: #006A50;
+}
+.taka{
+    margin-right: 24px;
+}
+.taka-input{
+    width: 1090px;
+    height: 64px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.taka-done-btn{
+    width: 151px;
+    height: 57px;
+    text-align: center;
+    font-size: 18x;
+    font-weight: bold;
+    color: white;
+    background-color:rgba(0, 106, 80, 1) ;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    margin-left: 490px;
+    margin-right: 500px;
+    
 }
