@@ -147,6 +147,7 @@ header{
     background-repeat: no-repeat;
     background-position: 20px 20px;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 80px;
 }
 .adviser-paragraph p {
     margin-bottom: 10px;
@@ -162,4 +163,91 @@ header{
     margin-bottom: 0;
     color: #666; 
     font-weight: normal;
+}
+/* Opinion */
+.opinion-container {
+    width: 100%;
+    max-width: 1110px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 80px;
+}
+.opinion-title{
+    font-size: 40px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    background-color: #d7f5dc;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+    background-color: rgba(198, 228, 214, 1);
+}
+select:hover{
+    background-color: white;
+}
+/* News */
+.news-title{
+    font-size: 40px;
+}
+.news01{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 24px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.news-img{
+    width: 408px;
+    height: 306px;
+    padding: 25px;
+    border-radius: 35px;
+}
+.news-sub-title{
+    font-size: 32px;
+    color: rgba(14, 14, 14, 0.8);
+    border-bottom: none;
+}
+.news-time{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.news-info{
+    color: rgba(14, 14, 14, 0.7);
+}
+.news-btn{
+    background-color: rgba(0, 106, 80, 1);
+    border-radius: 5px;
+    color: white;
+    width: 122px;
+    height: 41px;
+    font-weight: bold;
+}
+.news02{
+    display: flex;
+    justify-content: space-between;
+    background-color:white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
