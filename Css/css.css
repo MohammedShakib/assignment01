@@ -3,6 +3,7 @@
 body{
     margin-left: 100px;
     margin-right: 100px;
+    
 }
 /* Header */
 header{
@@ -26,6 +27,7 @@ header{
     max-width: 1280px;
     max-height: 560px;
     margin: 0 auto;
+    margin-bottom: 80px;
 }
 .banner-left{
     margin-left: 60px;
@@ -65,6 +67,7 @@ header{
 /* Pillers */
 .pillers{
     display: flex;
+    margin-bottom: 80px;
 }
 .piller-title{
     font-size: 40px;
@@ -79,6 +82,7 @@ header{
 /* vision-card */
 .vision-cards{
     display: flex;
+    margin-bottom: 32px;
 }
 .vision-title{
     font-size: 40px;
@@ -131,4 +135,31 @@ header{
     width: 122px;
     height: 41px;
     font-weight: bold;
+}
+/* Adviser */
+.adviser{
+    width: 1078px;
+    height: 145px;
+    background-color:white;
+    padding: 25px;
+    border-radius: 5px;
+    background-image: url('../Resource/assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.adviser-paragraph p {
+    margin-bottom: 10px;
+}
+
+.adviser-paragraph h3 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.adviser-paragraph h5 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #666; 
+    font-weight: normal;
 }
