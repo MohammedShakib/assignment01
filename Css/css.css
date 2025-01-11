@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* Body */
+body{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+/* Header */
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.sign-btn{
+    width: 116px;
+    height: 52px;
+    color: #006A50;
+    border-color: #006A50;
+    border-radius: 5px;
+    font-weight: bold;
+}
+/* Banner Section */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    background-color: #C6E4D6;
+    border-radius: 10px;
+    max-width: 1280px;
+    max-height: 560px;
+    margin: 0 auto;
+}
+.banner-left{
+    margin-left: 60px;
+    margin-top: 117px;
+    margin-bottom: 197px;
+    max-width: 50%;
+    padding: 20px;
+}
+.banner-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-pic img{
+    /* max-width: 400px;
+    max-height: 150px;
+    margin-left: 64px;
+    margin-top: 80px;
+    margin-bottom: 80px; */
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    
+}
+.explore-btn{
+    width: 270px;
+    height: 56px;
+    border-radius: 15px;
+    background-color: #006A50;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+.banner-motive{
+    font-size: 35px;
+    
+}
+.banner-motive h1 {
+    margin-bottom: 20px;
+}
